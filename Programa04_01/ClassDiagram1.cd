@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Programa04_01.CEmpleado">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAABAAAAAQAAAAAAABEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CEmpleado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Programa04_01.CPersona">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAgAAAAAAAAgQAAAIAAAAAAAA=</HashCode>
+      <FileName>CPersona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Programa04_01.Program">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
