@@ -22,6 +22,6 @@ namespace Programa05_02
         public void Muestra()
         {
             Console.WriteLine("Edifico en {0} con {1} deptos, {2} rentados",direccion,CantDepartamentos,DepRentados);
-        }
+        }        
     }
 }

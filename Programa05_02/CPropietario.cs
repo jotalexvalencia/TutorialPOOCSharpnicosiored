@@ -14,7 +14,7 @@ namespace Programa05_02
         public CPropietario(string pNombre)
         {
             nombre = pNombre;
-            propiedad = new CEdificio("Av 2 número 32",7,4);
+            propiedad = new CEdificio("Av 2 número 32",7,4);            
         }
 
         public void MostrarPropiedad()
