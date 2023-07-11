@@ -41,15 +41,28 @@ namespace Composición
 
         public void MostrarCasa()
         {
-            Console.WriteLine("Casa en {0}",direccion);
-            if(habitaciones.Count > 0)
-            {
-                foreach (var habitacion in habitaciones)
-                {
-                    Console.WriteLine("Habitación: {0} - Tiene baño: {1}", habitacion.NombreHabitacion, habitacion.TieneBano);
 
+            try
+            {
+                Console.WriteLine("Casa en {0}", direccion);
+                if (habitaciones.Count > 0)
+                {
+                    foreach (var habitacion in habitaciones)
+                    {
+                        Console.WriteLine("Habitación: {0} - Tiene baño: {1}", habitacion.NombreHabitacion, habitacion.TieneBano);
+                    }
                 }
             }
+            catch (NullReferenceException ex)
+            {
+                Console.WriteLine("La casa no existe ni sus habitaciones fue destuida anteriormente: " + ex.Message);
+            }
+        }
+
+        ~Casa()
+        {
+            direccion = default(string);
+            habitaciones.Clear();
         }
 
     }

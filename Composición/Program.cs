@@ -10,14 +10,26 @@ namespace Composición
     {
         public static void Main(string[] args)
         {
-            Casa casa = new Casa("MZ 7 CS 5A");
-            casa.AgregarHabitaciones();
-            casa.MostrarCasa();
+            try
+            {
+                Casa casa = new Casa("MZ 7 CS 5A");
+                casa.AgregarHabitaciones();
+                casa.MostrarCasa();
 
-            casa = null;
+                casa = null;
 
-
-
+                casa.MostrarCasa();
+            }
+            //catch (Exception ex)
+            //{
+            //    //Console.WriteLine(ex);
+            //    throw new System.NullReferenceException("La casa no existe");
+            //}
+            finally
+            {
+                Console.WriteLine("La casa no existe");
+                Console.WriteLine("Fin del programa");
+            }
         }
     }
 }
