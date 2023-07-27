@@ -27,7 +27,7 @@ namespace Programa06_01
         }
         
         public void MuestraVenta() {
-            Console.WriteLine("{0} se vende en {1}", descripcion,precioVenta);
+            Console.WriteLine("{0} se vende en {1}", descripcion,precioVenta));
         }
     }
 }
